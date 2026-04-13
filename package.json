@@ -1,0 +1,19 @@
+{
+  "name": "pagination-kit",
+  "version": "1.0.0",
+  "description": "Helpers de paginacao cursor e offset com tipos",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": ["pagination","cursor","offset"],
+  "author": "Tox",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0"
+  }
+}
